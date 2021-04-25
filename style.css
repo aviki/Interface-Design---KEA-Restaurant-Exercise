@@ -75,13 +75,23 @@
     list-style: none;
     color: var(--kea-red);
     font-weight: bold;
-    padding: 20px 20px;  
+    padding: 20px 20px;
+    line-height: 1.5; 
   }
+
 
   .quote {
       background-color: #bdbdbd;
       padding: 30px;
       margin-left: 40px;
+  }
+
+  #bottom-line {
+     margin-top: 10px; 
+  }
+
+  #bottom-line span {
+      font-style: italic;
   }
 
 footer {
