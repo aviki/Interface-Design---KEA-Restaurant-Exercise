@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEA Restaurant </title>
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="brand-name">
+               <h1>Restaurant KEA</h1>
+         </div>
+         <div class="navbar">
+             <ul>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#menu">Menu</a></li>
+               <li><a href="#contact">Contact</a></li>
+             </ul>
+         </div>
+       </header>
+     <!-- End Header -->
+
+    <!-- Start Contact page -->
+
+    <div class="contact-image">
+        <img src="img/map.jpg" alt="">
+    </div>
+    <div class="address">
+        <p>Lygten 37
+        2400 Copenhagen</p>
+    </div>
+    <div class="phone">
+        <p>Phone no.: <a href="">20 82 53 70</a></p>
+    </div>
+
+    <div class="form-container">
+        <form action="form.php">
+      
+          <label for="fname">Full Name</label>
+          <input type="text" id="fname" name="fullname" placeholder="Your name..">
+      
+          <label for="phone">Phone no.</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{8}" required placeholder="Your phone..">
+          
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email-address" placeholder="Your email..">
+
+          <label for="email">Persons</label>
+          <input type="number" id="persons" name="persons-no" placeholder="Number of people..">
+          
+          <label for="date">Date and time</label>
+          <input type="datetime-local" id="reservation-time"
+       name="reservation-time" value="YYYY-MM-DDTXX:XX"
+       min="2021-05-01T00:00" max="2021-08-31T00:00">
+      
+        
+          <label for="subject">Forther information</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Send">
+      
+        </form>
+      </div>
+
+    <!-- End Contact page -->
+    <footer>
+        <p>© 2021 KEA Web Development</p>
+    </footer>
+</body>
+</html>
