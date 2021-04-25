@@ -15,7 +15,7 @@
      --light-lemon: #F9FAD2;  
  }
   
-  /*HEADER START*/
+/*--------- HEADER START---------------*/
 
   .brand-container {
       width: 100%;
@@ -41,9 +41,21 @@
       text-decoration: none;
       color: white;
   }
-   /*HEADER END*/
 
-   /* HOME PAGE START */
+  #home {
+      color: var(--highlight);
+  }
+
+  #menu {
+      color: var(--highlight);
+  }
+
+  #contact {
+      color: var(--highlight);
+  }
+/* --------------HEADER END* ------------------/
+
+/*-------------- HOME PAGE START ----------- */
 
    .container-home {
        margin: 20px;
@@ -78,7 +90,41 @@ footer {
 }
 
 footer p {
-    padding: 10px;
+    padding: 20px;
 }
-     /* HOME PAGE END */
+/* --------HOME PAGE END ----------- */
+
+
+/* --------MENU PAGE START ----------- */
+
+.container {
+    background-color: var(--light-lemon);
+    margin: 30px;
+    padding: 20px;
+    border-style: solid;
+    overflow: auto;
+}
+
+
+
+.container img {
+    float: right;
+    padding-left: 20px;
+}
+
+
+.price {
+    background-color: var(--kea-red);
+    border-style: solid;
+    font-weight: bold;
+    max-width: 20%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.price p {
+    color: white;
+}
+
+/* --------MENU PAGE END ----------- */
  
