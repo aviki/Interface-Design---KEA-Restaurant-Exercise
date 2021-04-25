@@ -28,11 +28,11 @@
     <div class="contact-image">
         <img src="img/map.jpg" alt="">
     </div>
-    <div class="address">
+    <div class="contact-info">
         <p>Lygten 37
         2400 Copenhagen</p>
     </div>
-    <div class="phone">
+    <div class="contact-info">
         <p>Phone no.: <a href="">20 82 53 70</a></p>
     </div>
 
@@ -42,25 +42,26 @@
           <label for="fname">Full Name</label>
           <input type="text" id="fname" name="fullname" placeholder="Your name..">
       
-          <label for="phone">Phone no.</label>
+          <br><label for="phone">Phone no.</label>
           <input type="tel" id="phone" name="phone" pattern="[0-9]{8}" required placeholder="Your phone..">
           
-          <label for="email">E-mail</label>
+          <br><label for="email">E-mail</label>
           <input type="email" id="email" name="email-address" placeholder="Your email..">
 
-          <label for="email">Persons</label>
+          <br><label for="email">Persons</label>
           <input type="number" id="persons" name="persons-no" placeholder="Number of people..">
           
-          <label for="date">Date and time</label>
+          <br><label for="date">Date and time</label>
           <input type="datetime-local" id="reservation-time"
        name="reservation-time" value="YYYY-MM-DDTXX:XX"
        min="2021-05-01T00:00" max="2021-08-31T00:00">
-      
+
         
-          <label for="subject">Forther information</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <br><label for="subject">Further information</label>
+          <br><textarea id="subject" name="subject" placeholder="Write something.." style="width: 60%;"></textarea>
       
-          <input type="submit" value="Send">
+          <br><input id="submit" type="submit" value="Send">
+
       
         </form>
       </div>
